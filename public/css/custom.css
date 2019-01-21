@@ -1,0 +1,52 @@
+input[type="radio"] {
+    visibility: hidden;
+}
+
+.smiley {
+    display: flex;
+    padding: 10px;
+    min-width:400px;
+}
+.panel-label {
+    margin:auto;
+    border: 2px solid #D9EDF7;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    min-width: 80px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.panel-text {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+.panel-ques {
+    border: 4px solid #007AFF;
+}
+
+input[type="radio"]:checked+.panel-label {
+    background-color: #5479dd;
+    color: #ffffff;
+}
+.panel .panel-heading {
+    background-image: url('../img/black.jpg');
+    background-size: cover;
+}
+
+.panel .autoeval {
+    font-family: "Pacifico", Arial, sans-serif;
+    font-size: 8em;
+    color: whitesmoke;
+
+}
+.panel .sous-titre {
+    font-family: "Pacifico", Arial, sans-serif;
+    font-size: 4rem;
+    color: whitesmoke;
+
+}
+.panel-heading {
+    background: #5e5d5d;
+}
